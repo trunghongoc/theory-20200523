@@ -1,0 +1,56 @@
+/* bg */
+.background {
+    display: none;
+}
+
+.content .menu .right a {
+    display: none;
+}
+.content .menu .right span {
+    display: inline-block;
+}
+
+/* banner */
+.content .bg-mobile {
+    background: url('./../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* news */
+.content .news .item {
+    width: 100%;
+}
+.content .news .list .item:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 40px;
+}
+.content .news .list .item:nth-child(1)>div {
+    width: 100%;
+}
+.content .news .list .item:nth-child(2)>div {
+    width: 100%;
+    margin-left: 0;
+}
+.content .news .list .item:nth-child(3)>div {
+    width: 100%;
+    margin-left: 0;
+}
+.content .news .list .item:not(:first-child) {
+    margin-top: 50px;
+}
+
+/* footer */
+.content .footer .d-reverse-768 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.content .footer .d-reverse-768 .left,
+.content .footer .d-reverse-768 .right ul {
+    justify-content: center;
+    text-align: center;
+}
+.content .footer .d-reverse-768 .right {
+    margin-bottom: 40px;
+}
